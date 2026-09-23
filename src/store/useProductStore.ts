@@ -235,7 +235,7 @@ export const useProductStore = create<ProductState>()(
       }
     }),
     {
-      name: 'velo-products-storage-v4',
+      name: 'vorano-products-storage-v5',
       onRehydrateStorage: () => (state) => {
         if (state && (!state.products || state.products.length < INITIAL_PRODUCTS.length)) {
           state.products = INITIAL_PRODUCTS;
