@@ -39,7 +39,15 @@ export const useWishlistStore = create<WishlistState>()(
       clearWishlist: () => set({ items: [] })
     }),
     {
-      name: 'velo-wishlist-storage'
+      name: 'vorano-wishlist-storage-v2',
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          const hasLegacy = state.items?.some(p => p.brand?.includes('VELO') || p.name?.toLowerCase().includes('velo'));
+          if (hasLegacy) {
+            state.items = [];
+          }
+        }
+      }
     }
   )
 );

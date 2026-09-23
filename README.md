@@ -1,4 +1,4 @@
-# VELO & CO. — Precision Ergonomic & Luxury Carry Systems
+# VORANO INDIA — Precision Ergonomic & Luxury Carry Systems
 
 > A full-stack, enterprise-grade E-Commerce Web Application engineered for high-performance carry goods, backpacks, luggage, and executive accessories.
 
@@ -250,7 +250,7 @@ src/
   - Slide-over panel accessible from any page.
   - Free shipping progress bar (`Free delivery unlocked above ₹999`).
   - Item list with quantity steppers and remove triggers.
-  - Coupon code entry field (`VELO10` for 10% off).
+  - Coupon code entry field (`VORANOFIRST` for ₹300 off).
   - Subtotal, discount deductions, estimated taxes, and `Proceed to Checkout` CTA.
 - **Cart Page (`/cart`)**:
   - Full-page shopping bag overview with itemized table, total weight summary, and gift wrap options.
@@ -290,7 +290,7 @@ src/
 
 ### About Us (Brand Journey) (`/about`)
 
-- **Hero Narrative**: The story of VELO & CO. founded to eliminate back fatigue through orthopedic industrial engineering.
+- **Hero Narrative**: The story of VORANO INDIA founded to eliminate back fatigue through orthopedic industrial engineering.
 - **Interactive Chronological Timeline**: Milestones from early material research to international design awards.
 - **Craftsmanship Principles**: Detail cards covering S-Curve suspension straps, ballistic weaves, and marine-grade stitching.
 - **Sustainability Guarantee**: 100% recycled nylon linings and carbon-neutral logistics.
@@ -342,7 +342,7 @@ src/
 - **Interactive Preloader (`Preloader.tsx`)**:
   - Fullscreen loading sequence showing parts of a backpack dynamically assembling into a completed bag, picked up by a boy heading out, unlocking into the storefront.
 - **Desktop 2-Row Stacked Brand Logo (`Header.tsx`)**:
-  - On screens ≥ 1024px, the header logo stacks into two rows (`VELO` bold serif on line 1, `CO.` tracked uppercase on line 2). Adapts to inline horizontal baseline on mobile.
+  - On screens ≥ 1024px, the header logo stacks into two rows (`VORANO` bold serif on line 1, `INDIA` tracked uppercase on line 2). Adapts to inline horizontal baseline on mobile.
 - **Full-Width Mega Menu with Luxury Insets (`Header.scss`)**:
   - Generous `44px 0 54px` padding ensuring navigation links and "View All" actions have ample clearance.
   - Hover underline indicators sit cleanly beneath the text without striking through words.
@@ -415,4 +415,4 @@ Serves the compiled production build from `dist/` at `http://127.0.0.1:3002/`.
 
 ---
 
-© 2026 VELO & CO. All Rights Reserved. Engineered for School, Work, Travel & Everything In Between.
+© 2026 VORANO INDIA. All Rights Reserved. Engineered for School, Work, Travel & Everything In Between.

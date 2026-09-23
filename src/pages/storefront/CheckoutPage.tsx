@@ -52,13 +52,13 @@ export const CheckoutPage: React.FC = () => {
     setIsProcessing(true);
 
     setTimeout(() => {
-      const orderNumber = 'VLO-' + Math.floor(10000 + Math.random() * 90000);
+      const orderNumber = 'VRN-' + Math.floor(10000 + Math.random() * 90000);
       const newOrder: Order = {
         id: 'ord-' + Date.now(),
         orderNumber,
         userId: customer?.id || 'cust-01',
         customerName: address.fullName,
-        customerEmail: customer?.email || 'customer@velobags.com',
+        customerEmail: customer?.email || 'customer@voranoindia.com',
         customerPhone: address.phone,
         items: items.map((i) => ({
           productId: i.productId,

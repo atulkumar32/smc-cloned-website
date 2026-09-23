@@ -262,7 +262,7 @@ const TrendingCreationCard: React.FC<TrendingCardProps> = ({ product, rank, onQu
       {/* Card Details */}
       <div className="trending-card-details">
         <div className="trending-meta-row">
-          <span className="trending-brand">{product.brand || 'VELO ATELIER'}</span>
+          <span className="trending-brand">{product.brand || 'VORANO ATELIER'}</span>
           <span className="trending-rating">
             <Star size={13} fill="#f59e0b" color="#f59e0b" /> {product.rating || 4.9}
           </span>
@@ -539,7 +539,7 @@ export const HomePage: React.FC = () => {
   const spotlightSlides = [
     {
       id: 'sp-1',
-      name: 'Velo Apex Pro 32L Commuter',
+      name: 'Vorano Apex Pro 32L Commuter',
       tagline: 'FLAGSHIP URBAN SYSTEM',
       price: '₹4,899',
       oldPrice: '₹6,999',
@@ -553,7 +553,7 @@ export const HomePage: React.FC = () => {
     },
     {
       id: 'sp-2',
-      name: 'Velo Heritage Tuscan Briefcase',
+      name: 'Vorano Heritage Tuscan Briefcase',
       tagline: 'MASTER ATELIER LEATHER',
       price: '₹8,499',
       oldPrice: '₹11,999',
@@ -567,7 +567,7 @@ export const HomePage: React.FC = () => {
     },
     {
       id: 'sp-3',
-      name: 'Velo Transcontinental 55L Spinner',
+      name: 'Vorano Transcontinental 55L Spinner',
       tagline: 'AEROSPACE MAKROLON®',
       price: '₹7,299',
       oldPrice: '₹9,999',
@@ -581,7 +581,7 @@ export const HomePage: React.FC = () => {
     },
     {
       id: 'sp-4',
-      name: 'Velo Stealth Tactical Sling Pack',
+      name: 'Vorano Stealth Tactical Sling Pack',
       tagline: 'URBAN QUICK-DEPLOY',
       price: '₹2,699',
       oldPrice: '₹3,999',
@@ -1401,7 +1401,7 @@ export const HomePage: React.FC = () => {
               </div>
 
               <div className="quickview-body">
-                <span className="quickview-brand">{quickViewProduct.brand || 'VELO ATELIER'}</span>
+                <span className="quickview-brand">{quickViewProduct.brand || 'VORANO ATELIER'}</span>
                 <h3 className="quickview-title">{quickViewProduct.name}</h3>
 
                 <div className="quickview-rating">

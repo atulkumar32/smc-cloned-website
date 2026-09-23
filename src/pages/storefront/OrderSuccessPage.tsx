@@ -59,7 +59,7 @@ export const OrderSuccessPage: React.FC = () => {
           <div className="order-metadata-card">
             <div className="meta-col">
               <span className="label">Order Reference</span>
-              <strong className="val">VLO-88219</strong>
+              <strong className="val">VRN-88219</strong>
             </div>
             <div className="meta-col">
               <span className="label">Estimated Delivery</span>

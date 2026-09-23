@@ -235,10 +235,13 @@ export const useProductStore = create<ProductState>()(
       }
     }),
     {
-      name: 'velo-products-storage-v4',
+      name: 'vorano-products-storage-v6',
       onRehydrateStorage: () => (state) => {
-        if (state && (!state.products || state.products.length < INITIAL_PRODUCTS.length)) {
-          state.products = INITIAL_PRODUCTS;
+        if (state) {
+          const hasLegacy = state.products?.some(p => p.brand?.includes('VELO') || p.name?.toLowerCase().includes('velo'));
+          if (!state.products || state.products.length < INITIAL_PRODUCTS.length || hasLegacy) {
+            state.products = INITIAL_PRODUCTS;
+          }
         }
       }
     }

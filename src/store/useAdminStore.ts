@@ -27,7 +27,7 @@ const INITIAL_AUDIT_LOGS: AuditLogItem[] = [
   {
     id: 'log-1',
     adminName: 'Ashish Ojha',
-    adminEmail: 'admin@velobags.com',
+    adminEmail: 'admin@voranoindia.com',
     action: 'INITIALIZE_STORE',
     targetEntity: 'Catalog Management',
     details: 'Uploaded Winter 2026 Collection with 9 active bag styles.',
@@ -37,10 +37,10 @@ const INITIAL_AUDIT_LOGS: AuditLogItem[] = [
   {
     id: 'log-2',
     adminName: 'Ashish Ojha',
-    adminEmail: 'admin@velobags.com',
+    adminEmail: 'admin@voranoindia.com',
     action: 'COUPON_CREATED',
     targetEntity: 'Promotions',
-    details: 'Activated coupon "VELOFIRST" offering flat ₹300 OFF.',
+    details: 'Activated coupon "VORANOFIRST" offering flat ₹300 OFF.',
     timestamp: '2026-09-22 11:15 AM',
     ipAddress: '192.168.1.1'
   }
@@ -49,7 +49,7 @@ const INITIAL_AUDIT_LOGS: AuditLogItem[] = [
 export const useAdminStore = create<AdminState>()(
   persist(
     (set) => ({
-      announcementText: 'COMPLIMENTARY NATIONWIDE EXPRESS SHIPPING ON ALL ORDERS OVER ₹999 | CODE: VELOFIRST',
+      announcementText: 'COMPLIMENTARY NATIONWIDE EXPRESS SHIPPING ON ALL ORDERS OVER ₹999 | CODE: VORANOFIRST',
       isAnnouncementActive: true,
       coupons: INITIAL_COUPONS,
       banners: INITIAL_BANNERS,
@@ -97,7 +97,17 @@ export const useAdminStore = create<AdminState>()(
       }
     }),
     {
-      name: 'velo-admin-storage'
+      name: 'vorano-admin-storage-v2',
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          const hasLegacy = state.announcementText?.includes('VELO') || state.coupons?.some(c => c.code?.includes('VELO'));
+          if (hasLegacy || !state.coupons?.length) {
+            state.announcementText = 'COMPLIMENTARY NATIONWIDE EXPRESS SHIPPING ON ALL ORDERS OVER ₹999 | CODE: VORANOFIRST';
+            state.coupons = INITIAL_COUPONS;
+            state.banners = INITIAL_BANNERS;
+          }
+        }
+      }
     }
   )
 );

@@ -15,7 +15,7 @@ export const AdminLoginPage: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (email === 'admin@voranoindia.com' || email === 'admin@velobags.com') {
+    if (email === 'admin@voranoindia.com') {
       adminLogin(INITIAL_ADMIN_USER);
       addAuditLog({
         adminName: INITIAL_ADMIN_USER.name,

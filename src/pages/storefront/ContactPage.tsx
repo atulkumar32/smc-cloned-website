@@ -46,13 +46,13 @@ export const ContactPage: React.FC = () => {
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
-      setTicketId(`VLO-CARE-${Math.floor(100000 + Math.random() * 900000)}`);
+      setTicketId(`VRN-CARE-${Math.floor(100000 + Math.random() * 900000)}`);
     }, 900);
   };
 
   const faqs = [
     {
-      q: 'What is covered under the VELO Lifetime Craftsmanship Warranty?',
+      q: 'What is covered under the VORANO Lifetime Craftsmanship Warranty?',
       a: 'Our warranty guarantees every seam, stitch line, YKK® AquaGuard® zipper track, and forged aluminum buckle against manufacturing structural defects for the natural lifetime of the product. Normal aesthetic wear (like leather patina) is excluded.'
     },
     {
@@ -102,7 +102,7 @@ export const ContactPage: React.FC = () => {
                 <Mail size={24} />
               </div>
               <h3>Electronic Concierge</h3>
-              <p className="primary-text">concierge@velo-co.com</p>
+              <p className="primary-text">concierge@voranoindia.com</p>
               <span className="sub-text">Average response time: &lt; 2 hours</span>
             </div>
 
@@ -254,7 +254,7 @@ export const ContactPage: React.FC = () => {
                           <input 
                             id="orderId"
                             type="text" 
-                            placeholder="e.g. VLO-88219"
+                            placeholder="e.g. VRN-88219"
                             value={formData.orderId}
                             onChange={(e) => setFormData({ ...formData, orderId: e.target.value })}
                           />

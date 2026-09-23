@@ -72,7 +72,7 @@ export const useAuthStore = create<AuthState>()(
       }
     }),
     {
-      name: 'velo-auth-storage'
+      name: 'vorano-auth-storage-v2'
     }
   )
 );

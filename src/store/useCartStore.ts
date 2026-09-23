@@ -108,7 +108,15 @@ export const useCartStore = create<CartState>()(
       }
     }),
     {
-      name: 'velo-cart-storage'
+      name: 'vorano-cart-storage-v2',
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          const hasLegacy = state.items?.some(i => i.brand?.includes('VELO') || i.name?.toLowerCase().includes('velo'));
+          if (hasLegacy) {
+            state.items = [];
+          }
+        }
+      }
     }
   )
 );

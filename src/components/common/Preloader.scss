@@ -1,6 +1,6 @@
 @import "../../styles/global.scss";
 
-.velo-preloader-overlay {
+.vorano-preloader-overlay {
   position: fixed;
   inset: 0;
   z-index: 999999;
@@ -551,7 +551,7 @@
 
 // Responsive layout scaling for small screens & mobile
 @media (max-width: 768px) {
-  .velo-preloader-overlay {
+  .vorano-preloader-overlay {
     padding: 16px 20px;
 
     .preloader-stage-container {

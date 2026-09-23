@@ -197,7 +197,7 @@ export const AboutPage: React.FC = () => {
               Form Follows Movement. Built for a Lifetime of Journeys.
             </h1>
             <p className="hero-subtitle">
-              At VELO &amp; CO., we believe a bag is not merely an accessory — it is your personal mobile sanctuary. Engineered at the intersection of ergonomic science, high-tensile materials, and timeless minimalist luxury.
+              At VORANO INDIA, we believe a bag is not merely an accessory — it is your personal mobile sanctuary. Engineered at the intersection of ergonomic science, high-tensile materials, and timeless minimalist luxury.
             </p>
             <div className="hero-actions">
               <a href="#brand-journey" className="btn btn-primary">
@@ -218,7 +218,7 @@ export const AboutPage: React.FC = () => {
               <div className="media-card primary">
                 <img 
                   src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80" 
-                  alt="VELO Craftsmanship Atelier" 
+                  alt="VORANO Craftsmanship Atelier" 
                 />
                 <div className="media-caption">
                   <span className="caption-badge">THE ATELIER</span>

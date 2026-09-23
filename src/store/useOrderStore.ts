@@ -79,7 +79,15 @@ export const useOrderStore = create<OrderState>()(
       }
     }),
     {
-      name: 'velo-orders-storage'
+      name: 'vorano-orders-storage-v2',
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          const hasLegacy = state.orders?.some(o => o.orderNumber?.startsWith('VLO-'));
+          if (!state.orders || hasLegacy) {
+            state.orders = INITIAL_SAMPLE_ORDERS;
+          }
+        }
+      }
     }
   )
 );

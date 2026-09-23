@@ -48,14 +48,16 @@ export const Footer: React.FC = () => {
         <div className="container footer-grid">
           <div className="footer-brand-col">
             <Link to="/" className="footer-logo">
-              <span className="logo-main">VELO</span>
-              <span className="logo-sub">&amp; CO.</span>
+              <span className="logo-main">VORANO</span>
+              {/* make the new line to the india */}
+               <br/>
+              <span className="logo-sub">INDIA</span>
             </Link>
             <p className="brand-manifesto">
               Architectural carry gear engineered for modern academics, corporate leaders, and global nomads. Designed with military-grade resilience and understated luxury.
             </p>
             <div className="newsletter-box">
-              <p className="newsletter-title">The Velocity Dispatch</p>
+              <p className="newsletter-title">The Vorano Dispatch</p>
               <form onSubmit={(e) => { e.preventDefault(); alert('Subscribed to VIP dispatch!'); }} className="newsletter-form">
                 <input type="email" placeholder="Enter your corporate or personal email" required />
                 <button type="submit" className="newsletter-btn" aria-label="Subscribe">
@@ -103,7 +105,7 @@ export const Footer: React.FC = () => {
             <ul>
               <li><Link to="/about">About Us &amp; Craftsmanship</Link></li>
               <li><Link to="/contact">Contact Us &amp; Concierge</Link></li>
-              <li><Link to="/track-order/VLO-88219">Track Order Consignment</Link></li>
+              <li><Link to="/track-order/VRN-88219">Track Order Consignment</Link></li>
               <li><Link to="/account/returns">Returns &amp; Replacement</Link></li>
               <li><Link to="/faq">Warranty Registration</Link></li>
             </ul>
@@ -115,7 +117,7 @@ export const Footer: React.FC = () => {
       <div className="footer-bottom">
         <div className="container bottom-inner">
           <p className="copyright">
-            &copy; {new Date().getFullYear()} VELO &amp; CO. Carry Systems Ltd. All intellectual property reserved.
+            &copy; {new Date().getFullYear()} VORANO INDIA Carry Systems Ltd. All intellectual property reserved.
           </p>
           <div className="bottom-meta-links">
             <Link to="/about">About</Link>

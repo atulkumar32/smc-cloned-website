@@ -20,12 +20,12 @@ export const TrackOrderPage: React.FC = () => {
       <div className="track-header-card">
         <span className="track-eyebrow">LIVE CONSIGNMENT LOGISTICS</span>
         <h1 className="heading-1">Track Consignment</h1>
-        <p className="track-desc">Enter your VLO Order Number or Consignment Tracking Waybill.</p>
+        <p className="track-desc">Enter your VRN Order Number or Consignment Tracking Waybill.</p>
 
         <form onSubmit={(e) => e.preventDefault()} className="track-search-form">
           <input
             type="text"
-            placeholder="e.g. VLO-88219"
+            placeholder="e.g. VRN-88219"
             value={searchId}
             onChange={(e) => setSearchId(e.target.value)}
           />

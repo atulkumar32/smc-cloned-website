@@ -42,7 +42,7 @@ export const AdminAddProductPage: React.FC = () => {
       colorName: 'Stealth Black',
       colorHex: '#18181b',
       capacity: '24L',
-      sku: 'VLO-NEW-01-BLK',
+      sku: 'VRN-NEW-01-BLK',
       price: 2499,
       originalPrice: 3999,
       stock: 50,

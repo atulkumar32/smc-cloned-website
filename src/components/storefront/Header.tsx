@@ -176,9 +176,9 @@ export const Header: React.FC = () => {
           </button>
 
           {/* Luxury Brand Logo */}
-          <Link to="/" className="brand-logo" aria-label="VELO CO. Home">
-            <span className="brand-primary">VELO</span>
-            <span className="brand-secondary">CO.</span>
+          <Link to="/" className="brand-logo" aria-label="VORANO INDIA Home">
+            <span className="brand-primary">VORANO</span>
+            <span className="brand-secondary">INDIA</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -465,7 +465,7 @@ export const Header: React.FC = () => {
         <div className="mobile-drawer-backdrop" onClick={() => setMobileMenuOpen(false)}>
           <div className="mobile-drawer" onClick={(e) => e.stopPropagation()}>
             <div className="drawer-header">
-              <span className="drawer-title">VELO &amp; CO.</span>
+              <span className="drawer-title">VORANO INDIA</span>
               <button
                 className="drawer-close"
                 onClick={() => setMobileMenuOpen(false)}
