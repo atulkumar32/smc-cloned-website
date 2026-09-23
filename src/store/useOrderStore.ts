@@ -79,7 +79,7 @@ export const useOrderStore = create<OrderState>()(
       }
     }),
     {
-      name: 'vorano-orders-storage'
+      name: 'velo-orders-storage'
     }
   )
 );

@@ -4,8 +4,8 @@ import { useToastStore } from '../../store/useToastStore';
 
 export const AdminSettingsPage: React.FC = () => {
   const addToast = useToastStore((s) => s.addToast);
-  const [storeName, setStoreName] = useState('VELO & CO. Carry Systems Ltd.');
-  const [supportEmail, setSupportEmail] = useState('concierge@velobags.com');
+  const [storeName, setStoreName] = useState('VORANO INDIA Carry Systems Ltd.');
+  const [supportEmail, setSupportEmail] = useState('concierge@voranoindia.com');
   const [freeShippingLimit, setFreeShippingLimit] = useState(999);
   const [expressRate, setExpressRate] = useState(149);
 

@@ -66,13 +66,13 @@ export const Preloader: React.FC<PreloaderProps> = ({
       case 'assembling':
         return 'Precision stitching & self-assembling school bag parts...';
       case 'assembled':
-        return 'VORANO School Bag assembled & drop-tested!';
+        return 'VELO School Bag assembled & drop-tested!';
       case 'boy-arrives':
         return 'Here comes the young scholar...';
       case 'boy-takes':
         return 'Bag ready & geared up for school!';
       case 'done':
-        return 'Welcome to VORANO INDIA.';
+        return 'Welcome to VELO & CO.';
     }
   };
 
@@ -83,7 +83,7 @@ export const Preloader: React.FC<PreloaderProps> = ({
       {/* Top Bar with Brand and Skip */}
       <div className="preloader-header">
         <div className="brand-logo">
-          <span className="brand-title">VORANO INDIA</span>
+          <span className="brand-title">VELO & CO.</span>
           <span className="brand-tag">CRAFTSMANSHIP STUDIO</span>
         </div>
         <button 
@@ -290,14 +290,14 @@ export const Preloader: React.FC<PreloaderProps> = ({
                 <rect x="0" y="0" width="50" height="24" rx="5" fill="#0f172a" />
                 <text 
                   x="25" 
-                  y="15.5" 
+                  y="16" 
                   textAnchor="middle" 
                   fill="#fbbf24" 
-                  fontSize="7" 
+                  fontSize="8.5" 
                   fontWeight="bold" 
-                  letterSpacing="0.5"
+                  letterSpacing="1"
                 >
-                  VORANO
+                  VELO
                 </text>
               </g>
             </g>

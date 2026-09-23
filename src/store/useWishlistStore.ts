@@ -39,7 +39,7 @@ export const useWishlistStore = create<WishlistState>()(
       clearWishlist: () => set({ items: [] })
     }),
     {
-      name: 'vorano-wishlist-storage'
+      name: 'velo-wishlist-storage'
     }
   )
 );

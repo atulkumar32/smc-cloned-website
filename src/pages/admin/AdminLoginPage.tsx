@@ -6,7 +6,7 @@ import { INITIAL_ADMIN_USER } from '../../data/mockData';
 import './AdminLoginPage.scss';
 
 export const AdminLoginPage: React.FC = () => {
-  const [email, setEmail] = useState('admin@velobags.com');
+  const [email, setEmail] = useState('admin@voranoindia.com');
   const [password, setPassword] = useState('supersecret2026');
   const [error, setError] = useState<string | null>(null);
 
@@ -15,7 +15,7 @@ export const AdminLoginPage: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (email === 'admin@velobags.com') {
+    if (email === 'admin@voranoindia.com' || email === 'admin@velobags.com') {
       adminLogin(INITIAL_ADMIN_USER);
       addAuditLog({
         adminName: INITIAL_ADMIN_USER.name,
@@ -38,7 +38,7 @@ export const AdminLoginPage: React.FC = () => {
             <Lock size={26} />
           </div>
           <span className="platform-tag">INTERNAL COMMERCE SUITE</span>
-          <h1 className="portal-title">VELO &amp; CO. COMMAND</h1>
+          <h1 className="portal-title">VORANO INDIA COMMAND</h1>
           <p className="portal-desc">
             Restricted administrative gateway. Direct access only.
           </p>
@@ -55,7 +55,7 @@ export const AdminLoginPage: React.FC = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@velobags.com"
+                placeholder="admin@voranoindia.com"
                 required
               />
             </div>

@@ -108,7 +108,7 @@ export const useCartStore = create<CartState>()(
       }
     }),
     {
-      name: 'vorano-cart-storage'
+      name: 'velo-cart-storage'
     }
   )
 );

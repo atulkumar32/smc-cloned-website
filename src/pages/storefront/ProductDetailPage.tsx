@@ -475,7 +475,7 @@ export const ProductDetailPage: React.FC = () => {
                   </tr>
                   <tr>
                     <td className="spec-name">Character</td>
-                    <td className="spec-val">VORANO Signature Series</td>
+                    <td className="spec-val">VELO Signature Series</td>
                   </tr>
                   <tr>
                     <td className="spec-name">Class / Grade</td>

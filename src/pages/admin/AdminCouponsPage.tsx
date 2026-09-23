@@ -35,7 +35,7 @@ export const AdminCouponsPage: React.FC = () => {
     addCoupon(newCoupon);
     addAuditLog({
       adminName: 'Ashish Ojha',
-      adminEmail: 'admin@velobags.com',
+      adminEmail: 'admin@voranoindia.com',
       action: 'CREATE_PROMOTION_COUPON',
       targetEntity: `Voucher: ${newCoupon.code}`,
       details: `Created promo voucher for ${discountType === 'FLAT' ? `₹${discountValue} flat` : `${discountValue}%`}`,

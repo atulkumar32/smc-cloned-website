@@ -44,7 +44,7 @@ export const CartPage: React.FC = () => {
     const matched = coupons.find((c) => c.code === code && c.isActive);
 
     if (!matched) {
-      setCouponError('Invalid promotion code. Try VORANOFIRST or FREESHIP.');
+      setCouponError('Invalid promotion code. Try VELOFIRST or FREESHIP.');
       return;
     }
 
@@ -237,7 +237,7 @@ export const CartPage: React.FC = () => {
                 <form onSubmit={handleApplyCoupon} className="coupon-form">
                   <input
                     type="text"
-                    placeholder="Enter Coupon (e.g. VORANOFIRST)"
+                    placeholder="Enter Coupon (e.g. VELOFIRST)"
                     value={inputCoupon}
                     onChange={(e) => setInputCoupon(e.target.value)}
                   />

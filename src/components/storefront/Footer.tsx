@@ -48,8 +48,8 @@ export const Footer: React.FC = () => {
         <div className="container footer-grid">
           <div className="footer-brand-col">
             <Link to="/" className="footer-logo">
-              <span className="logo-main">VORANO</span>
-              <span className="logo-sub">INDIA</span>
+              <span className="logo-main">VELO</span>
+              <span className="logo-sub">&amp; CO.</span>
             </Link>
             <p className="brand-manifesto">
               Architectural carry gear engineered for modern academics, corporate leaders, and global nomads. Designed with military-grade resilience and understated luxury.
@@ -115,7 +115,7 @@ export const Footer: React.FC = () => {
       <div className="footer-bottom">
         <div className="container bottom-inner">
           <p className="copyright">
-            &copy; {new Date().getFullYear()} VORANO INDIA Carry Systems Ltd. All intellectual property reserved.
+            &copy; {new Date().getFullYear()} VELO &amp; CO. Carry Systems Ltd. All intellectual property reserved.
           </p>
           <div className="bottom-meta-links">
             <Link to="/about">About</Link>

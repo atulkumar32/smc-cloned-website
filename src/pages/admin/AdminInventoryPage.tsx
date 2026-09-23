@@ -15,7 +15,7 @@ export const AdminInventoryPage: React.FC = () => {
     updateStock(productId, variantId, 25);
     addAuditLog({
       adminName: 'Ashish Ojha',
-      adminEmail: 'admin@velobags.com',
+      adminEmail: 'admin@voranoindia.com',
       action: 'RESTOCK_INVENTORY',
       targetEntity: `SKU: ${productId}`,
       details: `Dispatched replenish batch: +25 units for ${name}`,

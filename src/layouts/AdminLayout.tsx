@@ -98,7 +98,7 @@ export const AdminLayout: React.FC = () => {
       <aside className={`admin-side-navigation ${mobileAdminNavOpen ? 'mobile-open' : ''}`}>
         <div className="admin-brand-header">
           <div className="brand-logo-stack">
-            <span className="logo-main">VORANO INDIA</span>
+            <span className="logo-main">VELO &amp; CO.</span>
             <span className="role-chip">{admin.role.replace('_', ' ')}</span>
           </div>
           <button className="admin-mobile-close" onClick={() => setMobileAdminNavOpen(false)}>

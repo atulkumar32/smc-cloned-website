@@ -30,7 +30,7 @@ export const AdminOrdersPage: React.FC = () => {
     updateOrderStatus(orderId, newStatus);
     addAuditLog({
       adminName: 'Ashish Ojha',
-      adminEmail: 'admin@velobags.com',
+      adminEmail: 'admin@voranoindia.com',
       action: 'UPDATE_ORDER_STATUS',
       targetEntity: `Order ID: ${orderId}`,
       details: `Status escalated to ${newStatus}`,

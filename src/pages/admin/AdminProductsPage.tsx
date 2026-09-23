@@ -31,7 +31,7 @@ export const AdminProductsPage: React.FC = () => {
       deleteProduct(id);
       addAuditLog({
         adminName: 'Ashish Ojha',
-        adminEmail: 'admin@velobags.com',
+        adminEmail: 'admin@voranoindia.com',
         action: 'DELETE_PRODUCT',
         targetEntity: 'Product Catalog',
         details: `Purged bag SKU from catalog: ${name}`,

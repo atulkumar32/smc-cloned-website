@@ -399,7 +399,7 @@ export const AboutPage: React.FC = () => {
           <div className="pipeline-header-flex">
             <div className="text-block">
               <span className="section-eyebrow">THE CRAFTSMANSHIP LABORATORY</span>
-              <h2 className="section-title">How A VELO Bag is Built: The 6-Stage Journey</h2>
+              <h2 className="section-title">How A VORANO Bag is Built: The 6-Stage Journey</h2>
               <p className="section-subtitle">
                 From raw computational 3D blueprints to laser-cut ballistic armor and 14-stage torture rigs.
               </p>
@@ -532,7 +532,7 @@ export const AboutPage: React.FC = () => {
                 <div className="hud-overlay">
                   <div className="hud-badge top-left">
                     <Wrench size={13} />
-                    <span>VELO ATELIER SPEC</span>
+                    <span>VORANO ATELIER SPEC</span>
                   </div>
                   <div className="hud-badge bottom-right">
                     <CheckCircle2 size={13} />
@@ -549,7 +549,7 @@ export const AboutPage: React.FC = () => {
       <section className="about-pillars-section">
         <div className="container">
           <div className="section-header text-center">
-            <span className="section-eyebrow">THE VELO STANDARD</span>
+            <span className="section-eyebrow">THE VORANO STANDARD</span>
             <h2 className="section-title">Four Pillars of Uncompromising Engineering</h2>
             <p className="section-subtitle">
               Every curve, lining, and pocket is purpose-driven to solve real carrying friction.
@@ -626,7 +626,7 @@ export const AboutPage: React.FC = () => {
           <div className="blueprint-box">
             <div className="blueprint-info">
               <span className="blueprint-badge">DISSECTED ANATOMY</span>
-              <h2 className="blueprint-title">Inside a VELO Carrying Instrument</h2>
+              <h2 className="blueprint-title">Inside a VORANO Carrying Instrument</h2>
               <p className="blueprint-desc">
                 Over 78 individual precision components work in harmonic synchronization to ensure absolute protection of your academic and professional gear.
               </p>
@@ -669,7 +669,7 @@ export const AboutPage: React.FC = () => {
             <div className="blueprint-visual">
               <img 
                 src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=1000&q=80" 
-                alt="VELO Bag Blueprint" 
+                alt="VORANO Bag Blueprint" 
               />
               <div className="blueprint-tag tag-top">REINFORCED TOP ARCH</div>
               <div className="blueprint-tag tag-side">MODULAR ACCESS PORT</div>
@@ -751,12 +751,12 @@ export const AboutPage: React.FC = () => {
           <div className="manifesto-card">
             <span className="manifesto-quote-mark">“</span>
             <blockquote className="manifesto-quote">
-              We started VELO &amp; CO. because we were tired of choosing between fragile fashion bags that rip within six months and bulky military gear with zero elegance. A student carrying their entire academic future and a professional carrying critical contracts deserve a bag that honors their ambition with flawless protection.
+              We started VORANO INDIA because we were tired of choosing between fragile fashion bags that rip within six months and bulky military gear with zero elegance. A student carrying their entire academic future and a professional carrying critical contracts deserve a bag that honors their ambition with flawless protection.
             </blockquote>
             <div className="manifesto-author">
               <div className="author-info">
                 <span className="author-name">Aarav Singhania &amp; Elena Rostova</span>
-                <span className="author-title">Co-Founders &amp; Heads of Industrial Design, VELO &amp; CO.</span>
+                <span className="author-title">Co-Founders &amp; Heads of Industrial Design, VORANO INDIA</span>
               </div>
             </div>
           </div>

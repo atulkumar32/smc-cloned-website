@@ -53,7 +53,7 @@ export const AccountLayout: React.FC = () => {
           <div className="user-greeting">
             <span className="greeting-eyebrow">PREMIUM COLLECTOR PRIVILEGE</span>
             <h1 className="user-name">Welcome back, {customer?.name || 'Ashish'}</h1>
-            <p className="user-email">{customer?.email || 'collector@voranoindia.com'}</p>
+            <p className="user-email">{customer?.email || 'collector@velobags.com'}</p>
           </div>
 
           <div className="tier-badge-cluster">

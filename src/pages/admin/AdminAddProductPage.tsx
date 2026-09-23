@@ -16,7 +16,7 @@ export const AdminAddProductPage: React.FC = () => {
   // Form State
   const [name, setName] = useState('');
   const [subtitle, setSubtitle] = useState('');
-  const [brand, setBrand] = useState('VELO & CO.');
+  const [brand, setBrand] = useState('VORANO INDIA');
   const [category, setCategory] = useState<BagCategory>('backpacks');
   const [subcategory, setSubcategory] = useState('Executive Laptop Packs');
   const [currentPrice, setCurrentPrice] = useState<number>(2499);
@@ -112,7 +112,7 @@ export const AdminAddProductPage: React.FC = () => {
 
     addAuditLog({
       adminName: 'Ashish Ojha',
-      adminEmail: 'admin@velobags.com',
+      adminEmail: 'admin@voranoindia.com',
       action: 'CREATE_PRODUCT',
       targetEntity: 'Product Catalog',
       details: `Created new bag model: ${name} (SKU: ${variants[0].sku})`,
